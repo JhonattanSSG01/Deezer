@@ -1,0 +1,90 @@
+.section-faq{
+  max-width: 35%;
+  margin: calc(50px*2) auto;
+}
+
+.title-principal{
+  margin: 60px;
+  padding: 10px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.title-principal h1{
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-questions{
+  margin: 40px;
+}
+
+details .title-faq{
+  font-size: 30px;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+details p{
+  margin: 25px 0;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-faq p a{
+  color: #FFFFFF;
+}
+
+.section-faq .litle-text{
+  padding: 50px 0;
+  font-size: 13px;
+  line-height: 30px;
+  color: #92929d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+  padding: 60px;
+  border-top: 1px solid #32323d;
+}
+
+.downloads{
+  text-align: center;
+}
+
+.downloads a:first-child{
+  vertical-align: super;
+}
+
+.list-items{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.list-items .link-principal a{
+  font-weight: 600;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.list-items ul{
+  padding: 40px;
+}
+
+.list-items li{
+  margin: 30px 0;
+  text-transform: capitalize;
+}
+
+.list-items li a{
+  color: #bebec7;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: Open,Arial,sans-serif;
+}

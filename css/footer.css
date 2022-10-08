@@ -1,5 +1,5 @@
 .section-faq{
-  max-width: 35%;
+  max-width: 32%;
   margin: calc(50px*2) auto;
 }
 
@@ -18,7 +18,18 @@
 }
 
 .section-questions{
-  margin: 40px;
+  margin: 40px 0;
+}
+
+.title-faq::marker{
+  content: "";
+}
+
+
+.title-faq{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 details .title-faq{
@@ -41,44 +52,48 @@ details p{
 }
 
 .section-faq .litle-text{
-  padding: 50px 0;
+  padding: 60px 0;
   font-size: 13px;
   line-height: 30px;
   color: #92929d;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer{
-  padding: 60px;
+.section-footer{
+  padding: 70px 130px;
   border-top: 1px solid #32323d;
 }
 
-.downloads{
+.section-downloads{
+  margin: 10px 0 60px 0;
   text-align: center;
 }
 
-.downloads a:first-child{
+.section-downloads a:first-child{
   vertical-align: super;
+}
+
+.section-footer .link-principal{
+  padding-bottom: 15px;
+  font-weight: 700;
+  color: #FFFFFF;
 }
 
 .list-items{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
-.list-items .link-principal a{
-  font-weight: 600;
-  line-height: 50px;
-  color: #FFFFFF;
-}
-
 .list-items ul{
-  padding: 40px;
+  padding-right: 5px; 
 }
 
 .list-items li{
-  margin: 30px 0;
+  line-height: 40px;
+}
+
+.list-items li::first-letter{
   text-transform: capitalize;
 }
 
@@ -87,4 +102,34 @@ details p{
   font-size: 16px;
   text-decoration: none;
   font-family: Open,Arial,sans-serif;
+}
+
+.section-under{
+  padding: 110px 10px 50px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-media i{
+  margin-right: 25px;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.section-legal .copyright{
+  color: #92929d;
+}
+
+.section-legal .lang{
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: medium;
+  cursor: pointer;
+  border: 0;
+  opacity: 0;
+}
+
+.section-legal .lang option{
+  color: #000000;
 }

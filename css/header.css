@@ -1,27 +1,28 @@
 .encabezado {
     float: left;
     list-style: none;
-    margin-top: 1px;
+    margin-top: -10px;
     margin-left: 8px;
 }
 
 .btnMisocio{ 
     background-color: transparent;
-    padding: 2.2rem;
+    padding: 3rem;
     border: 1px solid white;
     border-radius: 10px;
     ;
 }
 
 .SocioParrafo{
-    margin-top: -20px;
+    display: flex;
+    margin-top: -30px;
 }
 
 .Tigo{
     float: left;
     list-style: none;
     margin-top: -40px;
-    margin-left: 105px;
+    margin-left: 120px;
     
 }
 .logotigo{
@@ -47,6 +48,7 @@
 
 .IniciarSesion{
     padding: 0.8rem;
+    font-size: 12px;
     background-color: transparent;
     border: 1px solid white;
     border-radius: 20px;

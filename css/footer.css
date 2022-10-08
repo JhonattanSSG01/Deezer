@@ -105,11 +105,31 @@ details p{
 }
 
 .section-under{
-  padding-top: 117px;
+  padding: 110px 10px 50px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .section-media i{
   margin-right: 25px;
   font-size: 25px;
   color: #FFFFFF;
+}
+
+.section-legal .copyright{
+  color: #92929d;
+}
+
+.section-legal .lang{
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: medium;
+  cursor: pointer;
+  border: 0;
+  opacity: 0;
+}
+
+.section-legal .lang option{
+  color: #000000;
 }

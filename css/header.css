@@ -1,0 +1,56 @@
+.encabezado {
+    float: left;
+    list-style: none;
+    margin-top: -10px;
+    margin-left: 8px;
+}
+
+.btnMisocio{ 
+    background-color: transparent;
+    padding: 3rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    ;
+}
+
+.SocioParrafo{
+    display: flex;
+    margin-top: -30px;
+}
+
+.Tigo{
+    float: left;
+    list-style: none;
+    margin-top: -40px;
+    margin-left: 120px;
+    
+}
+.logotigo{
+    height:28px;
+    
+}
+
+.logo-deezer{
+    justify-content: center;
+    list-style: none;
+    margin-left: 45%;
+    margin-top: 2rem;
+
+}
+
+.btn{
+    background-color: transparent;
+    float: right;
+    list-style: none;
+    margin-top: -50px;
+    margin-right: 68px;
+}
+
+.IniciarSesion{
+    padding: 0.8rem;
+    font-size: 12px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}

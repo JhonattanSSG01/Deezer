@@ -1,4 +1,54 @@
-.section-faq{
+/* Estilos de la seccion de library */
+.section-library{
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.title-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0;
+}
+
+.title-line .line{
+  width: 100%;
+  position: relative;
+  border-top: 2px solid #818181;
+  opacity: .4;
+}
+
+.title-line h5{
+  position: absolute;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;  
+}
+
+.title-library .titles h1{
+  font-size: 46px;
+  margin: 20px 0;
+}
+
+.title-library .titles h3{
+  color: #bebec7;
+}
+
+.button-library{
+  margin-top: 25px;
+}
+
+.button-library a button{
+  width: 35%;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Estilos de la seccion FAQ */
+.section-faq, .section-library{
   max-width: 32%;
   margin: calc(50px*2) auto;
   font-family: Arial, Helvetica, sans-serif !important;
@@ -21,10 +71,9 @@
   margin: 40px 0;
 }
 
-.title-faq::marker{
+.title-faq{
   content: "";
 }
-
 
 .title-faq{
   display: flex;
@@ -56,11 +105,15 @@ details p{
   color: #92929d;
 }
 
+/* Estilos de la seccion pie de pagina */
+
 .section-footer{
   padding: 70px 130px;
   border-top: 1px solid #32323d;
   font-family: Open,Arial,sans-serif !important;
 }
+
+/* Estilos de la seccion descargables */
 
 .section-downloads{
   margin: 10px 0 60px 0;
@@ -70,6 +123,8 @@ details p{
 .section-downloads a:first-child{
   vertical-align: super;
 }
+
+/* Estilos de la seccion enlaces */
 
 .section-footer .link-principal{
   padding-bottom: 15px;
@@ -99,6 +154,8 @@ details p{
   font-size: 16px;
   text-decoration: none;
 }
+
+/* Estilos de la seccion media y legal */
 
 .section-under{
   padding: 110px 10px 50px 10px;
@@ -147,4 +204,3 @@ details p{
   opacity: 0;
   cursor: pointer;
 }
-

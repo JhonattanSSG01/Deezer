@@ -5,17 +5,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Importa los recursos externos como los estilos e iconos -->
   <link rel="stylesheet" href="css/estilosBody.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+  <!-- Titulo e icono visualizables en la pesataña del navegador -->
   <link rel="shortcut icon" href="img/logo-pestaña.ico" type="image/x-icon">
   <title>Deezer | Escuchar m&uacute;sica online | Aplicaci&oacute;n con reproductor de m&uacute;sica</title>
 </head>
 
+ <!-- Start el contenido de la web -->
 <body>
+  <!-- Start seccion biblioteca -->
+  <section class="section-library">
+    <div class="title-line">
+      <span class="line"></span>
+      <h5>novedades</h5>
+    </div>
+    <div class="title-library">
+      <article class="titles">
+        <h1>Importa tu biblioteca de música a Deezer</h1>
+        <h3>Transfiere toda tu biblioteca de música desde otro servicio de streaming de música a Deezer con un solo clic.</h3>
+      </article>
+      <article class="image">
+        <a href="https://features.deezer.com/es/transfer-playlist/">
+          <img src="img/biblioteca.png" alt="imagen de la biblioteca de deezer">
+        </a>
+      </article>
+    </div>
+    <div class="button-library">
+      <a href="https://features.deezer.com/es/transfer-playlist/">
+        <button>más información</button>
+      </a>
+    </div>
+  </section>
+  <!-- END seccion biblioteca -->
+  <!-- Start seccion FAQ -->
   <section class="section-faq">
     <section class="title-principal">
       <h1>faq</h1>
@@ -23,8 +51,8 @@
     <article class="section-questions">
       <details open>
         <summary class="title-faq">¿Qué es Deezer?
-          <i class="fa-solid fa-angle-right"></i>
-          <!-- <i class="fa-solid fa-angel-down"></i> -->
+          <!-- <i class="fa-solid fa-angle-right"></i> -->
+          <i class="fa-solid fa-chevron-down"></i>
         </summary>
         <p>
           Deezer es una app de streaming de música que te brinda acceso a más de 90 millones de canciones de todo el
@@ -93,6 +121,8 @@
       </details>
     </article>
   </section>
+  <!-- END seccion FAQ -->
+  <!-- Start seccion dscriptiva de los FAQ -->
   <section class="section-faq">
     <p class="litle-text">
       Estas ofertas son sin compromiso, lo que significa que puedes cancelar tu suscripción en cualquier momento. Estas
@@ -102,8 +132,11 @@
       Estas son ofertas por tiempo limitado y solo son válidas para un usuario.
     </p>
   </section>
+  <!-- END seccion descriptiva de los FAQ -->
+  <!-- Start seccion pie de pagina -->
   <footer>
     <section class="section-footer">
+      <!-- Start seccion descargable -->
       <div class="section-downloads">
         <a href="https://apps.apple.com/us/app/deezer-music-podcast-player/id292738169?itsct=apps_box&itscg=30200">
           <img src="img/app-store.jpg" width="8%" height="48px" alt="imagen de app store">
@@ -113,6 +146,8 @@
           <img src="img/play-store.png" width="10%" height="60px" alt="imagen de [play store">
         </a>
       </div>
+      <!-- END seccion descargable -->
+      <!-- Start seccion enlaces principales -->
       <div class="list-items">
         <ul>
           <li class="link-principal"><a href="https://www.deezer.com/mx/">deezer</a></li>
@@ -158,6 +193,8 @@
           <li><a href="https://www.deezer.com/explore/licenses/">open Source Software Report (EN)</a></li>
         </ul>
       </div>
+      <!-- END seccion enlaces principales -->
+      <!-- Start seccion media y legal -->
       <div class="section-under">
         <section class="section-media">
           <i class="fa-brands fa-facebook-f"></i>
@@ -214,8 +251,11 @@
           </article>
         </section>
       </div>
+      <!-- END seccion media y legal -->
     </section>
   </footer>
+  <!-- END seccion pie de pagina -->
 </body>
+<!-- END contenido de la web -->
 
 </html>

@@ -1,3 +1,7 @@
+.section-header b{
+    color: white !important;
+}
+
 .encabezado {
     float: left;
     list-style: none;

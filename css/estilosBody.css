@@ -1,17 +1,7 @@
-<<<<<<< HEAD
-*{
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-}
-
-=======
->>>>>>> footer
 body{
   background-color: #121216;
 }
 
-<<<<<<< HEAD
-=======
 ::-webkit-scrollbar{
   background-color: #161515;
   width: 15px;
@@ -26,4 +16,3 @@ body{
 ::-webkit-scrollbar-track{
   border-left: 1px solid #2a2a2f;
 }
->>>>>>> footer

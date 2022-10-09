@@ -1,6 +1,7 @@
 .section-faq{
   max-width: 32%;
   margin: calc(50px*2) auto;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .title-principal{
@@ -14,7 +15,6 @@
   font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-questions{
@@ -36,7 +36,6 @@ details .title-faq{
   font-size: 30px;
   font-weight: 600;
   color: #FFFFFF;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 details p{
@@ -44,7 +43,6 @@ details p{
   font-size: 18px;
   color: #FFFFFF;
   line-height: 25px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-faq p a{
@@ -56,12 +54,12 @@ details p{
   font-size: 13px;
   line-height: 30px;
   color: #92929d;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-footer{
   padding: 70px 130px;
   border-top: 1px solid #32323d;
+  font-family: Open,Arial,sans-serif !important;
 }
 
 .section-downloads{
@@ -75,7 +73,10 @@ details p{
 
 .section-footer .link-principal{
   padding-bottom: 15px;
-  font-weight: 700;
+}
+
+.section-footer .link-principal a{
+  font-weight: 600;
   color: #FFFFFF;
 }
 
@@ -85,12 +86,8 @@ details p{
   align-items: flex-start;
 }
 
-.list-items ul{
-  padding-right: 5px; 
-}
-
 .list-items li{
-  line-height: 40px;
+  line-height: 45px;
 }
 
 .list-items li::first-letter{
@@ -101,7 +98,6 @@ details p{
   color: #bebec7;
   font-size: 16px;
   text-decoration: none;
-  font-family: Open,Arial,sans-serif;
 }
 
 .section-under{
@@ -111,25 +107,44 @@ details p{
   align-items: center;
 }
 
+.section-media{
+  padding: 5px;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
 .section-media i{
   margin-right: 25px;
-  font-size: 25px;
-  color: #FFFFFF;
 }
 
 .section-legal .copyright{
-  color: #92929d;
+  position: relative;
+  color: #818181;
+  font-size: small;
+  display: inline-block;
 }
 
-.section-legal .lang{
-  background-color: transparent;
+.section-lang-legal{
+  padding: 0 25px 0 8px;
+  position: relative;
+  font-size: 15px;
+  display: inline;
   color: #FFFFFF;
-  font-size: medium;
-  cursor: pointer;
-  border: 0;
-  opacity: 0;
 }
 
-.section-legal .lang option{
-  color: #000000;
+.section-lang-legal i{
+  position: absolute;
+  top: 0;
+  right: 0;
 }
+
+.section-lang-legal .choose-lang{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+

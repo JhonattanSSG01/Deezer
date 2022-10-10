@@ -1,42 +1,61 @@
+@font-face {
+  font-family: Mabry Pro;
+  src: url(/fuentes/MabryPro-Regular.ttf);
+}
+
 /* Estilos de la seccion de library */
 .section-library{
   color: #FFFFFF;
   text-align: center;
 }
 
+/* Estilos para la division */
+
 .title-line{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 35px 0;
+}
+
+.title-line .line:first-of-type{
+  background: #363638;
 }
 
 .title-line .line{
-  width: 100%;
-  position: relative;
-  border-top: 2px solid #818181;
-  opacity: .4;
+  width: 90%;
+  height: 1px;
 }
 
-.title-line h5{
+.title-line .title-div{
   position: absolute;
+  padding: 0 20px;
+  background-color: #121216;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;  
 }
 
-.title-library .titles h1{
-  font-size: 46px;
-  margin: 20px 0;
+/* Estilos para los titulos y la imagen */
+
+.title-library{
+  padding: 45px 0 20px 0;
 }
 
-.title-library .titles h3{
+.titles h1{
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.titles h3{
+  padding-top: 25px;
+  font-size: 18px;
+  line-height: 25px;
   color: #bebec7;
 }
 
-.button-library{
-  margin-top: 25px;
-}
+/* Estilos para el boton */
 
 .button-library a button{
   width: 35%;
@@ -45,13 +64,13 @@
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* Estilos de la seccion FAQ */
-.section-faq, .section-library{
+ .section-library, .section-faq{
   max-width: 32%;
   margin: calc(50px*2) auto;
-  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .title-principal{
@@ -62,7 +81,7 @@
 }
 
 .title-principal h1{
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -166,11 +185,12 @@ details p{
 
 .section-media{
   padding: 5px;
-  font-size: 22px;
-  color: #FFFFFF;
 }
 
-.section-media i{
+.section-media a{
+  font-size: 22px;
+  text-decoration: none;
+  color: #FFFFFF;
   margin-right: 25px;
 }
 

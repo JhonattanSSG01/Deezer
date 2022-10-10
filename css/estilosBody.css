@@ -1,5 +1,11 @@
+@font-face {
+  font-family: Mabry Pro;
+  src: url(/fuentes/MabryPro-Regular.ttf);
+}
+
 body{
   background-color: #121216;
+  font-family: Mabry Pro;
 }
 
 ::-webkit-scrollbar{

@@ -1,0 +1,38 @@
+
+/*albumes*/
+
+.albumes{
+    text-align: center;
+    align-items:content;
+    margin-top: 20rem;
+    font-size: 40px;
+}
+
+.albumesTexto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+.setAlbumes{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: 30px ;
+}
+
+.setAlbumes li{
+    list-style: none;
+}
+
+.canciones{
+    height: 210px;
+    width: 210px;
+    padding: 1.2rem;
+    border-radius: 25px;
+    margin-right: 8px;
+    cursor: pointer;
+}

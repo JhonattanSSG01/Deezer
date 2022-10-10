@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+@font-face {
+    font-family: deezer;
+    src: url(../fonts/deezer-regular.ttf);
+}
+.cardsSection{
+    display: flex;
+    flex-direction: column;
+    max-width: 600;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.cardsTitle{
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 700;
+    width: 600px;
+    text-align: center;
+    font-family: deezer, Arial, sans-serif;
+    margin: 16px 0px 48px;
+}
+
+.cardContainer{
+    width: 600px;
+    margin-bottom: 48px;
+}
+
+.cardFree{
+    border-radius: 20px;
+    background-image: linear-gradient(57.8deg, rgb(107, 66, 180) 9.75%, rgb(148, 58, 171) 95.44%);
+    padding: 24px 80px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.category{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 38px;
+    font-family: deezer, Arial, sans-serif;
+    padding: 0px 0px 18px;
+    font-weight: 500;
+}
+
+.cardFree>a>b{
+    font-weight: 900;
+}
+
+.textCards{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
+    text-align: center;
+    margin: 0px 0px 24px;
+}
+
+.containerBotton{
+    width: 100%;
+    margin: 0px 0px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.bottonCard{
+    width: 338px;
+    height: 54px;
+    background-color: #121216;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 400px;
+    font-size: 14px;
+    font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
+    font-weight: 700;
+}
+
+.bottonCard:hover{
+    color: #121216;
+    background-color: #ffffff;
+}
+
+.textSecCards{
+    font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
+    font-size: 14px;
+    margin: 0px 0px 6px;
+}
+
+.moreInformation{
+    color: #ffffff;
+    font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
+    font-size: 14px;
+}
+
+.cardFamily{
+    border-radius: 20px;
+    background-image: linear-gradient(53.13deg, rgb(220, 76, 17) 10.71%, rgb(254, 171, 46));
+    padding: 24px 80px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}

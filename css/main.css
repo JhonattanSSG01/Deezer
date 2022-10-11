@@ -1,14 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
 @font-face {
-    font-family: deezer;
-    src: url(../fonts/deezer-regular.ttf);
+    font-family: "deezer";
+    src: url("../fonts/deezer-regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
 }
 .cardsSection{
     display: flex;
     flex-direction: column;
     max-width: 600;
     align-items: center;
-    margin-top: 140px;
+    margin: 80px 0px 84px;
+
 }
 
 .cardsTitle{
@@ -38,6 +48,7 @@
 
 .category{
     text-decoration: none;
+    cursor: pointer;
     color: #ffffff;
     font-size: 38px;
     font-family: deezer, Arial, sans-serif;
@@ -45,7 +56,7 @@
     font-weight: 500;
 }
 
-.cardFree>a>b{
+a>b{
     font-weight: 900;
 }
 
@@ -73,6 +84,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    cursor: pointer;
     color: #ffffff;
     border-radius: 400px;
     font-size: 14px;
@@ -106,3 +118,108 @@
     align-items: center;
     color: #ffffff;
 }
+
+.timeCard{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 32px;
+    font-family: deezer, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.priceCard{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
+    margin: 5px 0px 24px;
+}
+
+.tigo{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cardTigo{
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(32, 33, 34), rgb(58, 59, 71) 55.56%);
+    padding: 24px 80px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.textCardTigo{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
+    text-align: center;
+    margin: 0px 0px 18px;
+}
+
+.logoTigo{
+    height: 25px;
+    margin: 0px 0px 18px;
+}
+
+.cardPremium{
+    border-radius: 20px;
+    background-image: linear-gradient(69.06deg, rgb(184, 79, 221) -26.76%, rgb(73, 101, 244) 44.6%, rgb(46, 251, 116) 132.54%);
+    padding: 24px 80px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.cardDespl{
+    width: 600px;
+    margin-bottom: 24px;
+} 
+.cardAnual{
+    width: 598px;
+    height: 37px;
+    border-radius: 20px;
+    border:1px solid #92929d;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textCardAnual{
+    width: 600px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
+    font-weight: 600;
+    padding: 8px 0px;
+}
+
+.containesDesc{
+    width: 52px;
+    height: 20px;
+    color: #ffffff;
+    margin-right: 8px;
+    background-image: linear-gradient(69.06deg, rgb(184, 79, 221) -26.76%, rgb(73, 101, 244) 44.6%, rgb(46, 251, 116) 132.54%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
+}
+
+details[open] .detalle{
+    position: absolute;
+    z-index: -1;
+}
+
+summary::marker{
+    content: "";
+}
+  

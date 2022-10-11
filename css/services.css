@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "deezer";
+    src: url("../fonts/deezer-regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titlePrinServices{
+    color: #ffffff;
+    font-family: deezer, Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0px 0px 24px 0px;
+}
+
+.titleSecServices{
+    color: #ffffff;
+    font-family: deezer, Arial, sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    margin: 0px 0px 12px;
+}
+
+.textServices{
+    width: 600px;
+    color: #bebec7;
+    text-align: center;
+    font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.imageServices{
+    width: 1100px;
+}
+
+.bottonServices{
+    font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
+    font-size: 14px;
+    padding: 20px 32px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+.link1{
+    margin: 0px 0px 48px;
+}
+
+.link3{
+    margin: 48px 0px 0px;
+}
+
+.text1{
+    margin: 0px 0px 48px;
+}
+
+.text3{
+    margin: 0px 0px 12px;
+}

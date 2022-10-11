@@ -1,9 +1,5 @@
-# Propiedades
+# Bienvenidos a Deezer!!!! 👋👋👋
+![image](https://user-images.githubusercontent.com/80645321/195148701-847dc08f-8d8c-48f1-96c4-97e9704cb076.png)
 
->Fuente para los titulos, parrafos y enlaces. Google-fonts--Arial,sans-serif;
-Los titulos principales tienen negrita de 700 y un tamaño de 40px.
-
->Los parrafos tienen un tamaño de 16px.
-
->El fondo de la pagina tiene como color el #121216
-Los colores de las tarjetas que se utilizan son: Tarjeta #1 #6b42b4, #943aab, Tarjeta #2 #dc4c11 ,#feab2e, Tarjeta 3 #202122, #3a3b47, Tarjeta #4 #b84fdd, #4965f4,# 2efb74
+### La música es el arte más directo, entra por el oido y pasa por el corazón -- Magdalena Martinez --
+> Entra y averigualo 👉👉 https://jhonattanssg01.github.io/Deezer/ 👉👉 https://fabulous-salmiakki-63ced9.netlify.app

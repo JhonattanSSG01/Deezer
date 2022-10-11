@@ -214,9 +214,9 @@ a>b{
     font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
 }
 
-details[open] summary{
+details[open] .detalle{
     position: absolute;
-    top: 0;
+    z-index: -1;
 }
 
 summary::marker{

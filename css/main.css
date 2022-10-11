@@ -176,9 +176,9 @@ a>b{
 }
 
 .cardDespl{
-    position: relative;
-    margin-bottom: 12px;
-}
+    width: 600px;
+    margin-bottom: 24px;
+} 
 .cardAnual{
     width: 598px;
     height: 37px;
@@ -214,9 +214,12 @@ a>b{
     font-family: 'Roboto', 'Open Sans',Arial, sans-serif;
 }
 
-.cardContainerDesc{
-    width: 600px;
+details[open] summary{
     position: absolute;
-    top: 12px;
+    top: 0;
 }
 
+summary::marker{
+    content: "";
+}
+  

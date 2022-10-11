@@ -19,7 +19,7 @@
   <title>Deezer | Escuchar m&uacute;sica online | Aplicaci&oacute;n con reproductor de m&uacute;sica</title>
 </head>
 
-<body>
+<body class="fondo" >
   <header>
     <nav>
       <ul class="encabezado">
@@ -216,7 +216,31 @@
   <a class="vinculos" href="https://www.deezer.com/mx/channels/explore"><button class="Explorar" type="button">
       <p> <b> EXPLORA NUESTRO CATÁLOGO</b> </p>
     </button></a>
-
+  <!-- Start seccion biblioteca -->
+  <section class="section-library">
+    <div class="title-line">
+      <span class="line"></span>
+      <span class="title-div">novedades</span>
+    </div>
+    <div class="title-library">
+      <article class="titles">
+        <h1>Importa tu biblioteca de música a Deezer</h1>
+        <h3>Transfiere toda tu biblioteca de música desde otro servicio de streaming de música a Deezer con un solo clic.</h3>
+      </article>
+      <article class="image">
+        <a href="https://features.deezer.com/es/transfer-playlist/">
+          <img src="img/biblioteca.png" width="90%" alt="imagen de la biblioteca de deezer">
+        </a>
+      </article>
+    </div>
+    <div class="button-library">
+      <a href="https://features.deezer.com/es/transfer-playlist/">
+        <button>más información</button>
+      </a>
+    </div>
+  </section>
+  <!-- END seccion biblioteca -->
+  <!-- Start seccion FAQ -->
   <section class="section-faq">
     <section class="title-principal">
       <h1>faq</h1>
@@ -289,6 +313,8 @@
       </details>
     </article>
   </section>
+  <!-- END seccion FAQ -->
+  <!-- Start seccion dscriptiva de los FAQ -->
   <section class="section-faq">
     <p class="litle-text">
       Estas ofertas son sin compromiso, lo que significa que puedes cancelar tu suscripción en cualquier momento. Estas
@@ -298,8 +324,11 @@
       Estas son ofertas por tiempo limitado y solo son válidas para un usuario.
     </p>
   </section>
+  <!-- END seccion descriptiva de los FAQ -->
+  <!-- Start seccion pie de pagina -->
   <footer>
     <section class="section-footer">
+      <!-- Start seccion descargable -->
       <div class="section-downloads">
         <a href="https://apps.apple.com/us/app/deezer-music-podcast-player/id292738169?itsct=apps_box&itscg=30200">
           <img src="img/app-store.jpg" width="8%" height="48px" alt="imagen de app store">
@@ -309,6 +338,8 @@
           <img src="img/play-store.png" width="10%" height="60px" alt="imagen de [play store">
         </a>
       </div>
+      <!-- END seccion descargable -->
+      <!-- Start seccion enlaces principales -->
       <div class="list-items">
         <ul>
           <li class="link-principal"><a href="https://www.deezer.com/mx/">deezer</a></li>
@@ -319,6 +350,23 @@
           <li><a href="https://support.deezer.com/hc/es">ayuda</a></li>
           <li><a href="https://es.deezercommunity.com">community y suferencias</a></li>
           <li><a href="https://www.deezer-blog.com">blog</a></li>
+        </ul>
+        <ul>
+          <li class="link-principal"><a href="https://features.deezer.com/es/">ventajas</a></li>
+          <li><a href="https://features.deezer.com/es-es/flow/">flow</a></li>
+          <li><a href="https://features.deezer.com/es-es/songcatcher/">identificar canciones</a></li>
+          <li><a href="https://features.deezer.com/es-es/transfer-playlist/">transferir tu biblioteca</a></li>
+          <li><a href="https://features.deezer.com/es-es/lyrics/">letras</a></li>
+          <li><a href="https://features.deezer.com/es-es/offline/">escucha sin conexión</a></li>
+        </ul>
+        <ul>
+          <li class="link-principal"><a href="https://www.deezer.com/mx/channels/explore">explorar</a></li>
+          <li><a href="https://www.deezer.com/mx/channels/charts">listas de éxitos</a></li>
+          <li><a href="https://www.deezer.com/mx/channels/popular">lanzamiento más popular</a></li>
+          <li><a href="https://www.deezer.com/mx/channels/new">nuevos lanzamientos</a></li>
+          <li><a href="https://www.deezer.com/mx/channels/radios">radios</a></li>
+          <li><a href="https://www.deezer.com/mx/channels/podcasts">podcasts</a></li>
+          <li><a href="https://www.deezer.com/explore/es/moments/">música para todos los momentos</a></li>
         </ul>
         <ul>
           <li class="link-principal"><a href="">¿quiénes somos?</a></li>
@@ -337,15 +385,27 @@
           <li><a href="https://www.deezer.com/explore/licenses/">open Source Software Report (EN)</a></li>
         </ul>
       </div>
+      <!-- END seccion enlaces principales -->
+      <!-- Start seccion media y legal -->
       <div class="section-under">
         <section class="section-media">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-youtube"></i>
+          <a href="https://www.facebook.com/Deezer/">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/deezer/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com/DeezerLatino"> 
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://www.youtube.com/deezer">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
         </section>
         <section class="section-logo">
-          <img src="img/deezerlogo.png" width="200" height="45" alt="imagen del logo">
+          <a href="https://www.deezer.com/mx/">
+            <img src="img/deezerlogo.png" width="200" height="45" alt="imagen del logo">
+          </a>
         </section>
         <section class="section-legal">
           <span class="copyright">© 2022 Deezer</span>
@@ -393,7 +453,9 @@
           </article>
         </section>
       </div>
+      <!-- END seccion media y legal -->
     </section>
   </footer>
+  <!-- END seccion pie de pagina -->
 </body>
 <!-- END contenido de la web -->

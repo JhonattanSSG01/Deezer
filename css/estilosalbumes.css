@@ -1,0 +1,141 @@
+
+/*albumes*/
+
+.albumes{
+    text-align: center;
+    align-items:content;
+    margin-top: 20rem;
+    font-size: 40px;
+    color: #fff;
+}
+
+.albumesTexto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+
+
+.setAlbumes{
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: 30px ;
+}
+
+.setAlbumes li{
+    position: relative;
+    z-index: 0;
+    list-style: none;
+}
+
+.canciones{
+    z-index: 0;
+    height: 210px;
+    width: 210px;
+    padding: 1.2rem;
+    border-radius: 25px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.iconoPlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 25px;
+    bottom: 62px;
+}
+
+.iconoPlay i{
+    color: #000;
+    font-size: 10px;
+  
+}
+
+
+.descripcion{
+    display: flex;
+    font-size: 14px;
+    justify-items: center;
+    text-align: center;
+    margin-left: 15px;
+    cursor: pointer;
+    margin-top: -15px;
+    text-decoration-line: none;
+    color: #fff;
+}
+
+.descripcion2{
+    display: flex;
+    font-size: 14px;
+    justify-items: center;
+    text-align: center;
+    margin-left: 95px;
+    cursor: pointer;
+    margin-top: -15px;
+    color: #fff;
+}
+
+.descripcion3{
+    display: flex;
+    font-size: 14px;
+    justify-items: center;
+    text-align: center;
+    margin-left: 70px;
+    cursor: pointer;
+    margin-top: -15px;
+    color: #fff;
+}
+
+.descripcion4{
+    display: flex;
+    font-size: 14px;
+    justify-items: center;
+    text-align: center;
+    margin-left: 70px;
+    cursor: pointer;
+    margin-top: -15px;
+    color: #fff;
+}
+
+.descripcion5{
+    display: flex;
+    font-size: 14px;
+    justify-items: center;
+    text-align: center;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-top: -15px;
+    color: #fff;
+}
+
+.Explorar{
+    display: flex;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 32px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    border-radius: 600px;
+    border: 4px solid #fff;
+    color: black;
+    padding-bottom: -3rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.vinculos{
+    text-decoration: none;
+}

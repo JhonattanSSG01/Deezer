@@ -10,36 +10,45 @@
 }
 
 .btnMisocio{ 
+    font-size: 12px;
     background-color: transparent;
-    padding: 3rem;
-    border: 1px solid white;
+    padding: 50px 28px;
+    border: 1px solid grey;
     border-radius: 10px;
-    ;
+    cursor: pointer;
+    color: white;
+
 }
 
 .SocioParrafo{
-    display: flex;
+    flex-direction: column;
     margin-top: -30px;
 }
 
-.Tigo{
+.tigo{
     float: left;
     list-style: none;
     margin-top: -40px;
-    margin-left: 120px;
+    margin-left: 100px;
     
 }
 .logotigo{
-    height:28px;
-    
+    display: flex;
+    height:22px;
+    margin-top: -10px;
+    cursor: pointer;
+
+
 }
 
 .logo-deezer{
     justify-content: center;
+    text-align: center;
+    align-items:content;
     list-style: none;
-    margin-left: 45%;
     margin-top: 2rem;
-
+    margin-right: 290px;
+    cursor: pointer;
 }
 
 .btn{
@@ -56,5 +65,7 @@
     background-color: transparent;
     border: 1px solid white;
     border-radius: 20px;
-
+    cursor: pointer;
+    color: white;
 }
+

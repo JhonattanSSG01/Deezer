@@ -6,7 +6,7 @@
     float: left;
     list-style: none;
     margin-top: -10px;
-    margin-left: 8px;
+    margin-left: 50px;
 }
 
 .btnMisocio{ 
@@ -32,13 +32,12 @@
     margin-left: 100px;
     
 }
+
 .logotigo{
     display: flex;
     height:22px;
     margin-top: -10px;
     cursor: pointer;
-
-
 }
 
 .logo-deezer{

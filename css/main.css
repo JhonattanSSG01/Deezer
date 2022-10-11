@@ -1,17 +1,4 @@
-@font-face {
-    font-family: "deezer";
-    src: url("../fonts/deezer-regular.ttf");
-}
 
-@font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url("../fonts/OpenSans-Regular.ttf");
-}
 .cardsSection{
     display: flex;
     flex-direction: column;

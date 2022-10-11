@@ -1,8 +1,23 @@
+@font-face {
+  font-family: "deezer";
+  src: url("fonts/deezer-regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Regular.ttf");
+}
+
 body{
   background: #121216;
 }
 
-.fondo::before{
+.background::before{
   width: 70%;
   height: 50%;
   background: linear-gradient(126.05deg, rgb(241 42 42/90%) 25.95%, #bf1ceb 44.46%, #06ad57 65.35%, rgb(6 173 87/60%) 76.7%);

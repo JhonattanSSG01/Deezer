@@ -4,18 +4,12 @@
 .albumes{
     text-align: center;
     align-items:content;
-    margin-top: 48px;
-    font-size: 40px;
+    padding: 50px 0;
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 700;
     color: #fff;
-}
-
-.albumesTexto{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 16px;
-    line-height: 22px;
-    color: #fff;
+    font-family: deezer, Arial, sans-serif;
 }
 
 
@@ -23,7 +17,6 @@
     z-index: 0;
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
     margin-right: 30px ;
 }
 
@@ -72,7 +65,8 @@
     cursor: pointer;
     margin-top: -15px;
     text-decoration-line: none;
-    color: #fff;
+    color: #bebec7;
+    font-family: Reboto, OpenSans, Arial, sans-serif;
 }
 
 .descripcion2{
@@ -83,7 +77,8 @@
     margin-left: 95px;
     cursor: pointer;
     margin-top: -15px;
-    color: #fff;
+    color: #bebec7;
+    font-family: Reboto, OpenSans, Arial, sans-serif;
 }
 
 .descripcion3{
@@ -94,7 +89,8 @@
     margin-left: 70px;
     cursor: pointer;
     margin-top: -15px;
-    color: #fff;
+    color: #bebec7;
+    font-family: Reboto, OpenSans, Arial, sans-serif;
 }
 
 .descripcion4{
@@ -105,7 +101,8 @@
     margin-left: 70px;
     cursor: pointer;
     margin-top: -15px;
-    color: #fff;
+    color: #bebec7;
+    font-family: Reboto, OpenSans, Arial, sans-serif;
 }
 
 .descripcion5{
@@ -116,7 +113,8 @@
     margin-left: 30px;
     cursor: pointer;
     margin-top: -15px;
-    color: #fff;
+    color: #bebec7;
+    font-family: Reboto, OpenSans, Arial, sans-serif;
 }
 
 .Explorar{

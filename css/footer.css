@@ -1,7 +1,76 @@
-.section-faq{
+@font-face {
+  font-family: Mabry Pro;
+  src: url(/fuentes/MabryPro-Regular.ttf);
+}
+
+/* Estilos de la seccion de library */
+.section-library{
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* Estilos para la division */
+
+.title-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-line .line:first-of-type{
+  background: #363638;
+}
+
+.title-line .line{
+  width: 90%;
+  height: 1px;
+}
+
+.title-line .title-div{
+  position: absolute;
+  padding: 0 20px;
+  background-color: #121216;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;  
+}
+
+/* Estilos para los titulos y la imagen */
+
+.title-library{
+  padding: 45px 0 20px 0;
+}
+
+.titles h1{
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.titles h3{
+  padding-top: 25px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #bebec7;
+}
+
+/* Estilos para el boton */
+
+.button-library a button{
+  width: 35%;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Estilos de la seccion FAQ */
+ .section-library, .section-faq{
   max-width: 32%;
   margin: calc(50px*2) auto;
-  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .title-principal{
@@ -12,7 +81,7 @@
 }
 
 .title-principal h1{
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -21,10 +90,9 @@
   margin: 40px 0;
 }
 
-.title-faq::marker{
+.title-faq{
   content: "";
 }
-
 
 .title-faq{
   display: flex;
@@ -33,7 +101,7 @@
 }
 
 details .title-faq{
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 600;
   color: #FFFFFF;
 }
@@ -52,15 +120,19 @@ details p{
 .section-faq .litle-text{
   padding: 60px 0;
   font-size: 13px;
-  line-height: 30px;
+  line-height: 25px;
   color: #92929d;
 }
+
+/* Estilos de la seccion pie de pagina */
 
 .section-footer{
   padding: 70px 130px;
   border-top: 1px solid #32323d;
   font-family: Open,Arial,sans-serif !important;
 }
+
+/* Estilos de la seccion descargables */
 
 .section-downloads{
   margin: 10px 0 60px 0;
@@ -70,6 +142,8 @@ details p{
 .section-downloads a:first-child{
   vertical-align: super;
 }
+
+/* Estilos de la seccion enlaces */
 
 .section-footer .link-principal{
   padding-bottom: 15px;
@@ -100,6 +174,8 @@ details p{
   text-decoration: none;
 }
 
+/* Estilos de la seccion media y legal */
+
 .section-under{
   padding: 110px 10px 50px 10px;
   display: flex;
@@ -109,11 +185,12 @@ details p{
 
 .section-media{
   padding: 5px;
-  font-size: 22px;
-  color: #FFFFFF;
 }
 
-.section-media i{
+.section-media a{
+  font-size: 22px;
+  text-decoration: none;
+  color: #FFFFFF;
   margin-right: 25px;
 }
 
@@ -147,4 +224,3 @@ details p{
   opacity: 0;
   cursor: pointer;
 }
-

@@ -1,5 +1,27 @@
+@font-face {
+  font-family: Mabry Pro;
+  src: url(/fuentes/MabryPro-Regular.ttf);
+}
+
 body{
-  background-color: #121216;
+  background: #121216;
+  font-family: Mabry Pro !important;
+}
+
+.fondo::before{
+  width: 70%;
+  height: 50%;
+  opacity: .3;
+  background: linear-gradient(126.05deg, rgb(241 42 42/90%) 25.95%, #bf1ceb 44.46%, #06ad57 65.35%, rgb(6 173 87/60%) 76.7%);
+  filter:blur(100px);
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  content: "";
+  border-radius: 100%;
+  z-index: -1;
 }
 
 ::-webkit-scrollbar{
